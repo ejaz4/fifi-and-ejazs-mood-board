@@ -1,0 +1,28 @@
+body {
+  background-color: #5e0636;
+}
+h1,
+p {
+  font-family: "Comfortaa";
+}
+img {
+  border-radius: 5px;
+  box-shadow: 0px;
+  transform: scale(1);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.container > img {
+  height: 300px;
+  margin: 20px;
+}
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 17px -6px rgba(0, 0, 0, 0.75);
+}
